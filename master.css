@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.prova {
+  width: 300px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px;
+  border: 1px solid blue;
+
+}
+
+.card-container .card-cover  {
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border: 1px solid pink;
+  box-shadow: 1px 1px 4px 4px #888888;
+}
+
+.card-container .card-info {
+  display: none;
+}
